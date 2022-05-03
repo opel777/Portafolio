@@ -344,10 +344,42 @@ img {
   column-gap: 3rem;
 }
 
+.skills__group {
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
+
+.skills__data {
+  display: flex;
+  column-gap: .5rem;
+}
+
+.skills__data i {
+  font-size: 1rem;
+  color: var(--first-color)
+}
+
+.skils__name {
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  line-height: 18px;
+
+}
+
+.skils__level {
+  font-size: var(--smaller-font-size);
+}
+
 /* Hide and show projects & skills */
+.filters [data-content] {
+  display: none;
+}
 
+.filters__active[data-content] {
+  display: grid;
+}
 
-/* Activate button filter */
 
 
 /*=============== FOOTER ===============*/
