@@ -372,7 +372,7 @@ img {
 }
 
 /* Hide and show projects & skills */
-.filters [data-content] {
+/*.filters [data-content] {
   display: none;
 }
 
