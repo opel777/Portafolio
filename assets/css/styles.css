@@ -360,19 +360,19 @@ img {
   color: var(--first-color)
 }
 
-.skils__name {
+.skills__name {
   font-size: var(--normal-font-size);
   font-weight: 500;
   line-height: 18px;
 
 }
 
-.skils__level {
+.skills__level {
   font-size: var(--smaller-font-size);
 }
 
 /* Hide and show projects & skills */
-/*.filters [data-content] {
+.filters [data-content] {
   display: none;
 }
 
@@ -380,13 +380,26 @@ img {
   display: grid;
 }
 
-
+/*Active button filter */
+.filter-tab-active {
+  background-color: var(--body-color);
+}
 
 /*=============== FOOTER ===============*/
-
+.footer__copy {
+  display: block;
+  margin: 2.5rem 0 2rem;
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light)
+}
 
 /*=============== SCROLL BAR ===============*/
-
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(var(--hue), 8%, 66%);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
